@@ -1,7 +1,10 @@
 public class local {
-    public static void main(String[] args){
+    /*
+    hello, hlavnam etoda
+    */
+    public static void main(String[] argsXYZ){
         ID person = new ID();
-        System.out.println(person.checkId("976231/1240"));
+        System.out.println(person.checkId("976230/1240"));
     }
      if (ID.checkId()) {
         ID.Age();
@@ -15,4 +18,7 @@ public class local {
     }
      
      // this is a comment
+    public int getValue(){
+        return 5;
+    }
 }
