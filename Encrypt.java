@@ -55,7 +55,11 @@ public class Encrypt {
 
     public int encryptWordKey(int b)
     {
-        int pos = b % 65;
+        int pos = b % 65šľ+;
         return keyWordString.charAt(pos);
+    }
+
+    public static void main(String[] args) {
+        System.out.println("hello world+ľš+");
     }
 }

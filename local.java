@@ -7,6 +7,12 @@ public class local {
         ID.Age();
 
         System.out.println("Den ked si sa narodil bol:");
-
+        //xdd
     }
+
+    public static void main(String[] args) {
+        System.out.println("hello world");
+    }
+     
+     // this is a comment
 }
