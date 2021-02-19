@@ -1,9 +1,12 @@
 public class local {
     // hlavna metoda
     public static void main(String[] args){
-        // waw, ID
+        System.out.println("Hello");
+
+    public static void main(String[] argsXYZ){
+
         ID person = new ID();
-        System.out.println(person.checkId("976231/1240"));
+        System.out.println(person.checkId("976230/1240"));
     }
      if (ID.checkId()) {
         ID.Age();
@@ -11,9 +14,23 @@ public class local {
         System.out.println("Den ked si sa narodil bol:");
 
     }
+
+
+
+    public void hello(){
+        System.out.println("Hello");
+
     
     
     public void hello(){
-      // vypis hello   
+      // vypis hello
+                System.out.println("Hello");
+}
+
+
+     // this is a comment
+    public int getValue(){
+        return 5;
     }
+
 }
